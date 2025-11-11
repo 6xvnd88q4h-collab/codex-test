@@ -1,2 +1,6 @@
 from datetime import date
-print(f"Hallo, Daniel – {date.today().strftime('%d.%m.%Y')}")
+
+name = "DEIN NAME"
+heute = date.today().strftime("%d.%m.%Y")
+print(f"Hallo, {name} – {heute}")
+
